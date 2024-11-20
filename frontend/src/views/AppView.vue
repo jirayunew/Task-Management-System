@@ -235,8 +235,15 @@ export default {
         },
     },
     mounted() {
-        this.fetchTasks();
-    },
+    const token = localStorage.getItem("token");
+        if (token) {
+            axios.defaults.headers.common["Authorization"] = token; // เพิ่ม JWT Token
+        } else {
+            this.$router.push("/login"); // ถ้าไม่มี Token ให้กลับไปหน้า Login
+        }
+    this.fetchTasks();
+    }
+
 
 };
 </script>
