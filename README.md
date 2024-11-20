@@ -49,17 +49,21 @@
 ```bash
 git clone https://github.com/jirayunew/Task-Management-System.git
 cd task-management-system
-
+```
 #### 2.เริ่มต้นระบบด้วย Docker: รวมถึง Backend
+```bash
 docker-compose up --build
-
+```
 #### 3. ติดตั้งและรัน Frontend:
+```bash
 cd frontend
 npm install
 npm run dev
+```
 #### 4. เข้าใช้งานระบบ:
+```bash
 🌐 Frontend: http://localhost:5173
 ⚙️ Backend: http://localhost:8080
-
+```
 
 
