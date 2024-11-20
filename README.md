@@ -55,6 +55,7 @@ cd task-management-system
 docker-compose up --build
 ```
 #### 3. ติดตั้งและรัน Frontend:
+เปิด Terminal เพิ่ม
 ```bash
 cd frontend
 npm install
