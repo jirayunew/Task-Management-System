@@ -51,7 +51,6 @@ git clone https://github.com/your-repo/task-management-system.git
 cd task-management-system
 
 #### 2.เริ่มต้นระบบด้วย Docker: รวมถึง Backend
-```bash
 docker-compose up --build
 
 #### 3. ติดตั้งและรัน Frontend:
