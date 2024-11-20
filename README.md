@@ -60,7 +60,6 @@ npm run dev
 #### 4. เข้าใช้งานระบบ:
 🌐 Frontend: http://localhost:5173
 ⚙️ Backend: http://localhost:8080
-bash
-คัดลอกโค้ด
+
 
 
