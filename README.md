@@ -47,7 +47,7 @@
 
 #### 1. Clone โค้ดจาก Repository:
 ```bash
-git clone https://github.com/your-repo/task-management-system.git
+git clone https://github.com/jirayunew/Task-Management-System.git
 cd task-management-system
 
 #### 2.เริ่มต้นระบบด้วย Docker: รวมถึง Backend
